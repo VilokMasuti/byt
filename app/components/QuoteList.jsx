@@ -1,10 +1,7 @@
 import { getQuotes } from '../actions/quoteActions'
 import { Suspense } from 'react'
 
-interface Quote {
-  quote: string
-  author: string
-}
+
 
 function QuoteListContent() {
   return (
@@ -15,7 +12,7 @@ function QuoteListContent() {
 }
 
 async function AsyncQuoteList() {
-  let quotes: Quote[] = []
+  let quotes
   try {
     // Fetch quotes data
     const fetchedQuotes = await getQuotes()

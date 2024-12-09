@@ -32,7 +32,7 @@
     "app/contact/page.jsx",
     "app/api-data/page.jsx",
     "app/components/Header.jsx",
-    "app/components/QuoteList.tsx",
+    "app/components/QuoteList.jsx",
     "app/services/page.jsx",
     "app/services/[id]/page.jsx",
     "app/about/page.jsx"

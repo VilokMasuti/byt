@@ -8,8 +8,8 @@ import { ThemeProvider } from './components/ThemeProvider'
 const outfit = Outfit({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Modern Next.js Website',
-  description: 'A cool and modern website built with Next.js 15',
+  title: 'Modern App',
+  description: 'A cool and modern website ',
 }
 
 export default function RootLayout({
